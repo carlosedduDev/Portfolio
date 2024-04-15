@@ -8,3 +8,11 @@
 .section .main-title {
     margin-bottom: 60px;
 }
+
+.section.-bgVerde {
+    background-color: #3E6680;
+}
+
+.section.-bdFirts {
+    border-bottom: 10px solid #70A9A1;
+}
