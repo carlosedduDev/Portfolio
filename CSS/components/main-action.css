@@ -1,4 +1,4 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.action::before {
+.main-action::before {
     content: "";
     background-color: #70A9A1;
     width: 10px;
@@ -16,7 +16,7 @@
     margin-right: 10px;
     transition: 0.5s ease-in-out;
 }
-.action::after {
+.main-action::after {
     content: "";
     width: 0%;
     height: 3px;
@@ -26,11 +26,11 @@
     transition: 0.5s ease-in-out;
 }
 
-.action:hover::before {
+.main-action:hover::before {
     background-color: #7fffd4;
 }
 
-.action:hover::after {
+.main-action:hover::after {
     width: 100%;
     background-color: #7fffd4;
 }
