@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     background-image: url('/Portfolio/assets/img/banner-background.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -8,17 +8,17 @@
     padding: 115px 90px; 
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 630px;
 }
 
-.banner .box {
+.main-banner .box {
     margin-bottom: 38px;
 }
 
-.banner .navegation {
+.main-banner .navegation {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
