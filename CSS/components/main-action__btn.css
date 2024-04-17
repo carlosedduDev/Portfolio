@@ -1,4 +1,4 @@
-.action__btn {
+.main-action__btn {
     color: #FFFFFF;
     background-color: #70A9A1;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
@@ -20,7 +20,7 @@
     }
 }
 
-.action__btn:hover {
+.main-action__btn:hover {
     cursor: pointer;
     box-shadow: none;
     border-radius: 5px;
