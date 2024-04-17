@@ -1,4 +1,4 @@
-.header {
+.main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,12 +7,12 @@
     padding: 10px 20px;
 }
 
-.header .header__nav {
+.main-header .header__nav {
         font-family: "Fira Code", Arial, Helvetica, sans-serif;
         font-weight: 500;
 }
 
-.header .header__img {
+.main-header .header__img {
     width: 60px;
     height: 60px;
 }
