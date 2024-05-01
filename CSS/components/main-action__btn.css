@@ -32,3 +32,18 @@
 .main-action__btn.-full {
     width: 100%;
 }
+
+@keyframes pulsar-submit {
+    100% {
+        transform: scale(1.02);
+    }
+}
+
+.main-action__btn.-full:hover {
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: #7fffd4;
+    color: #00487C;
+    animation: pulsar-submit 0.8s ease-in-out infinite alternate;
+}
